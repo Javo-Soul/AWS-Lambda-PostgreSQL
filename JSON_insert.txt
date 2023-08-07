@@ -1,0 +1,1464 @@
+{
+ "PK": "DEUDOR#700503#SOLICITANTE#644715",
+ "SK": "MUESTRA#33779798",
+ "COMPONENTE": "PV 112 PTO",
+ "correlativo": "3022000021",
+ "DATA": {
+  "cliente": {
+   "clienteId": "700503",
+   "faena": {
+    "contacto": "CRISTIAN OLIVARES",
+    "direccion": "DIVISION CODELCO RADOMIRO TOMIC",
+    "faenaId": "644715",
+    "fechaModificacion": "2022-04-21T10:14:54",
+    "informacion_comercial": {
+     "canalDistribucion": "03",
+     "canalDistribucionNombre": "Industrial",
+     "centroBeneficio": "LCG50061",
+     "centroBeneficioNombre": "Z122 GEN MINERIA",
+     "centroDistribucion": "1101",
+     "clienteZona": "122",
+     "clienteZonaNombre": "Arnaldo Queirolo",
+     "jefeZona": null,
+     "organizacionVenta": "1200",
+     "organizacionVentaNombre": "Lubricantes Copec",
+     "regionComercial": "1102",
+     "regionComercialNombre": "Industrial Norte"
+    },
+    "muestrasGratis": "0",
+    "nombre": "DIVISION RT",
+    "numeroSap": "700507",
+    "responsable": {
+     "email": "AQUEIROLO@COPEC.CL",
+     "nombre": "ARNALDO QUEIROLO",
+     "phone": "995994026"
+    },
+    "rubro": "L-MINERIA",
+    "zonaId": "16502964706513152"
+   },
+   "fechaModificacion": "2022-04-21T10:14:55",
+   "nombre": "EPIROC CHILE S.A.C.",
+   "numeroSap": "700507",
+   "rut": "91762000-8"
+  },
+  "comentarios": {
+   "comentario": "Contenido de Silicio supera el máximo permitido. Verifique posible adición de aditivos siliconados.",
+   "comentarioId": "",
+   "nombre": "",
+   "status": "manual"
+  },
+  "componente": {
+   "clienteId": "700503",
+   "componenteId": "PV 112 PTO",
+   "descriptor": "PTO",
+   "equipo": {
+    "alias": [
+    ],
+    "clienteId": "700503",
+    "componentes": [
+    ],
+    "descriptor": "",
+    "equipoId": "PV-112",
+    "faenaId": "644715",
+    "marca": "EPIROC",
+    "modelo": "PIT VIPER 351",
+    "tags": [
+    ],
+    "tipoEquipo": {
+     "nombre": "PERFORADORA",
+     "tipoEquipoId": ""
+    }
+   },
+   "faenaId": "644715",
+   "lubricante": {
+    "code": "357",
+    "lubricanteId": "357",
+    "nombre": "MOBIL SHC GEAR 150",
+    "tipo": {
+     "categoriaLubricanteId": "12",
+     "nombre": "ISO VG 150"
+    }
+   },
+   "marca": "EPIROC",
+   "modelo": "",
+   "planAnalisis": {
+    "code": null,
+    "nombre": "ASSISTANCE INDUSTRIAL",
+    "planAnalisisId": "600011"
+   },
+   "seleccionado": true,
+   "tipoComponente": {
+    "nombre": "POWER TAKE OFF (PTO)",
+    "tipoComponenteId": "63"
+   },
+   "ubicacion": ""
+  },
+  "componenteId": "PV 112 PTO",
+  "correlativo": "3022000021",
+  "ensayos_ocultos": [
+   "8",
+   "21",
+   "18",
+   "56",
+   "318",
+   "319",
+   "54",
+   "53"
+  ],
+  "estado": "reported",
+  "fechaInforme": "2022-07-08T19:38:10.680377",
+  "fechaIngreso": "2022-07-04T19:32:27.732Z",
+  "fechaMuestreo": "2022-07-01",
+  "lubricante": {
+   "lubricanteId": "357",
+   "nombre": "MOBIL SHC GEAR 150",
+   "tipo": {
+    "categoriaLubricanteId": "12",
+    "nombre": "ISO VG 150"
+   }
+  },
+  "muestraId": "33779798",
+  "observaciones": "",
+  "otroLubricante": "",
+  "planAnalisis": {
+   "code": null,
+   "nombre": "ASSISTANCE INDUSTRIAL",
+   "planAnalisisId": "600011"
+  },
+  "rellenoDesdeUltimoCambio": "8",
+  "reportName": "",
+  "resolucion": "alerta",
+  "resultados": [
+   {
+    "ensayo": {
+     "code": "301",
+     "ensayoId": "301",
+     "nombre": "HUMEDAD 0,05"
+    },
+    "fecha": "08-07-2022",
+    "hora": "16:29:57",
+    "muestraId": "33779798",
+    "resultadoId": "16572977974370770",
+    "stamp": "cargado",
+    "tipo": "manual",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:29:57",
+      "stamp": "cargado",
+      "tipo": "manual",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": "false"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "false"
+   },
+   {
+    "ensayo": {
+     "code": "5",
+     "ensayoId": "5",
+     "nombre": "VISCOSIDAD A 40 °C. CST"
+    },
+    "estado": {
+     "color": "green",
+     "limites": {
+      "allowMax": "165.0",
+      "allowMin": "136.39",
+      "max": "172.5",
+      "min": "130.4"
+     },
+     "status": "normal"
+    },
+    "fecha": "08-07-2022",
+    "hora": "18:40",
+    "muestraId": "33779798",
+    "resultadoId": "16572983543710480",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:39:14",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 18:40:20",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "139.8"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "139.8"
+   },
+   {
+    "ensayo": {
+     "code": "43",
+     "ensayoId": "43",
+     "nombre": "SILICIO (ICP)"
+    },
+    "estado": {
+     "color": "red",
+     "condicion": "alerta_superior",
+     "limites": {
+      "allowMax": "60.0",
+      "allowMin": "0.0",
+      "max": "60.0",
+      "min": "0.0"
+     },
+     "status": "alerta"
+    },
+    "fecha": "08-07-2022",
+    "hora": "17:24",
+    "muestraId": "33779798",
+    "resultadoId": "16572983805448410",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:39:40",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 17:24:19",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "81.9"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "81.9"
+   },
+   {
+    "ensayo": {
+     "code": "55",
+     "ensayoId": "55",
+     "nombre": "SODIO (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "17:24",
+    "muestraId": "33779798",
+    "resultadoId": "16572984029102020",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:40:02",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 17:24:20",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "5.1"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "5.1"
+   },
+   {
+    "ensayo": {
+     "code": "57",
+     "ensayoId": "57",
+     "nombre": "BORO (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "17:24",
+    "muestraId": "33779798",
+    "resultadoId": "16572984364277300",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:40:36",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 17:24:18",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "0.1"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "0.1"
+   },
+   {
+    "ensayo": {
+     "code": "45",
+     "ensayoId": "45",
+     "nombre": "COBRE (ICP)"
+    },
+    "estado": {
+     "color": "green",
+     "limites": {
+      "allowMax": "40.0",
+      "allowMin": "0.0",
+      "max": "50.0",
+      "min": "0.0"
+     },
+     "status": "normal"
+    },
+    "fecha": "08-07-2022",
+    "hora": "17:24",
+    "muestraId": "33779798",
+    "resultadoId": "16572985053149070",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:41:45",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 17:24:19",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "0.1"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "0.1"
+   },
+   {
+    "ensayo": {
+     "code": "48",
+     "ensayoId": "48",
+     "nombre": "CROMO (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "17:24",
+    "muestraId": "33779798",
+    "resultadoId": "16572985257742850",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:42:05",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 17:24:18",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "0.1"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "0.1"
+   },
+   {
+    "ensayo": {
+     "code": "47",
+     "ensayoId": "47",
+     "nombre": "ALUMINIO (ICP)"
+    },
+    "estado": {
+     "color": "green",
+     "limites": {
+      "allowMax": "5.0",
+      "allowMin": "0.0",
+      "max": "5.0",
+      "min": "0.0"
+     },
+     "status": "normal"
+    },
+    "fecha": "08-07-2022",
+    "hora": "17:24",
+    "muestraId": "33779798",
+    "resultadoId": "16572987312912730",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:45:31",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 17:24:18",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "0.7"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "0.7"
+   },
+   {
+    "ensayo": {
+     "code": "46",
+     "ensayoId": "46",
+     "nombre": "PLOMO (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "17:24",
+    "muestraId": "33779798",
+    "resultadoId": "16572987800512670",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:46:20",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 17:24:19",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "0.1"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "0.1"
+   },
+   {
+    "ensayo": {
+     "code": "60",
+     "ensayoId": "60",
+     "nombre": "VANADIO (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "17:24",
+    "muestraId": "33779798",
+    "resultadoId": "16572990316817400",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:50:31",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 17:24:20",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "0.1"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "0.1"
+   },
+   {
+    "ensayo": {
+     "code": "264",
+     "ensayoId": "264",
+     "nombre": "TITANIO (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "17:24",
+    "muestraId": "33779798",
+    "resultadoId": "16572990453681520",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:50:45",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 17:24:19",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "0.1"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "0.1"
+   },
+   {
+    "ensayo": {
+     "code": "44",
+     "ensayoId": "44",
+     "nombre": "HIERRO (ICP)"
+    },
+    "estado": {
+     "color": "green",
+     "limites": {
+      "allowMax": "80.0",
+      "allowMin": "0.0",
+      "max": "100.0",
+      "min": "0.0"
+     },
+     "status": "normal"
+    },
+    "fecha": "08-07-2022",
+    "hora": "17:24",
+    "muestraId": "33779798",
+    "resultadoId": "16572990872461280",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:51:27",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 17:24:18",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "8"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "8"
+   },
+   {
+    "ensayo": {
+     "code": "49",
+     "ensayoId": "49",
+     "nombre": "ESTAÑO (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "17:24",
+    "muestraId": "33779798",
+    "resultadoId": "16572990978422690",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:51:37",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 17:24:19",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "0.1"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "0.1"
+   },
+   {
+    "ensayo": {
+     "code": "51",
+     "ensayoId": "51",
+     "nombre": "PLATA (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "17:24",
+    "muestraId": "33779798",
+    "resultadoId": "16572991112634130",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:51:51",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 17:24:18",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "0.1"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "0.1"
+   },
+   {
+    "ensayo": {
+     "code": "52",
+     "ensayoId": "52",
+     "nombre": "FOSFORO (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "17:24",
+    "muestraId": "33779798",
+    "resultadoId": "16572991234019260",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:52:03",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 17:24:18",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "451"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "451"
+   },
+   {
+    "ensayo": {
+     "code": "58",
+     "ensayoId": "58",
+     "nombre": "NIQUEL (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "17:24",
+    "muestraId": "33779798",
+    "resultadoId": "16572992454834480",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:54:05",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 17:24:19",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "0.1"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "0.1"
+   },
+   {
+    "ensayo": {
+     "code": "59",
+     "ensayoId": "59",
+     "nombre": "MOLIBDENO (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "17:24",
+    "muestraId": "33779798",
+    "resultadoId": "16572992584474140",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:54:18",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 17:24:19",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "0.1"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "0.1"
+   },
+   {
+    "ensayo": {
+     "code": "263",
+     "ensayoId": "263",
+     "nombre": "POTASIO (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "17:24",
+    "muestraId": "33779798",
+    "resultadoId": "16572992751699130",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:54:35",
+      "stamp": "iniciado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     },
+     {
+      "fecha": "08-07-2022 17:24:18",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "0.1"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "0.1"
+   },
+   {
+    "ensayo": {
+     "code": "318",
+     "ensayoId": "318",
+     "nombre": "CADMIO (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "16:55:14",
+    "muestraId": "33779798",
+    "resultadoId": "16572993141483560",
+    "stamp": "no_realizable",
+    "tipo": "manual",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:55:14",
+      "stamp": "no_realizable",
+      "tipo": "manual",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": ""
+   },
+   {
+    "ensayo": {
+     "code": "319",
+     "ensayoId": "319",
+     "nombre": "MANGANESO (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "16:55:29",
+    "muestraId": "33779798",
+    "resultadoId": "16572993294026380",
+    "stamp": "no_realizable",
+    "tipo": "manual",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:55:29",
+      "stamp": "no_realizable",
+      "tipo": "manual",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": ""
+   },
+   {
+    "ensayo": {
+     "code": "21",
+     "ensayoId": "21",
+     "nombre": "OXIDACIÓN"
+    },
+    "fecha": "08-07-2022",
+    "hora": "16:56:20",
+    "muestraId": "33779798",
+    "resultadoId": "16572993800671600",
+    "stamp": "no_realizable",
+    "tipo": "manual",
+    "traces": [
+     {
+      "fecha": "08-07-2022 16:56:20",
+      "stamp": "no_realizable",
+      "tipo": "manual",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": ""
+   },
+   {
+    "ensayo": {
+     "code": "34",
+     "ensayoId": "34",
+     "nombre": "CÓDIGO ISO 4406"
+    },
+    "fecha": "08-07-2022",
+    "hora": "19:14:09",
+    "muestraId": "33779798",
+    "resultadoId": "16573012407499630",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 17:27:20",
+      "stamp": "falta_iniciar",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "21/19/15"
+     },
+     {
+      "fecha": "08-07-2022 19:14:09",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": "21/19/15"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "21/19/15"
+   },
+   {
+    "ensayo": {
+     "code": "29",
+     "ensayoId": "29",
+     "nombre": "PARTÍCULAS ML 6 MICRAS"
+    },
+    "fecha": "08-07-2022",
+    "hora": "19:13:42",
+    "muestraId": "33779798",
+    "resultadoId": "16573012408204400",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 17:27:20",
+      "stamp": "falta_iniciar",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "2922"
+     },
+     {
+      "fecha": "08-07-2022 19:13:42",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": "2922"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "2922"
+   },
+   {
+    "ensayo": {
+     "code": "30",
+     "ensayoId": "30",
+     "nombre": "PARTÍCULAS ML 14 MICRAS"
+    },
+    "fecha": "08-07-2022",
+    "hora": "19:13:45",
+    "muestraId": "33779798",
+    "resultadoId": "16573012408780450",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 17:27:20",
+      "stamp": "falta_iniciar",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "181"
+     },
+     {
+      "fecha": "08-07-2022 19:13:45",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": "181"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "181"
+   },
+   {
+    "ensayo": {
+     "code": "28",
+     "ensayoId": "28",
+     "nombre": "PARTÍCULAS ML 4 MICRAS"
+    },
+    "fecha": "08-07-2022",
+    "hora": "18:19:34",
+    "muestraId": "33779798",
+    "resultadoId": "16573012409716420",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 17:27:20",
+      "stamp": "falta_iniciar",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "15184"
+     },
+     {
+      "fecha": "08-07-2022 18:19:34",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": "15184"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "15184"
+   },
+   {
+    "ensayo": {
+     "code": "32",
+     "ensayoId": "32",
+     "nombre": "PARTÍCULAS ML 50 MICRAS"
+    },
+    "fecha": "08-07-2022",
+    "hora": "19:13:59",
+    "muestraId": "33779798",
+    "resultadoId": "16573012412526240",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 17:27:21",
+      "stamp": "falta_iniciar",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "3"
+     },
+     {
+      "fecha": "08-07-2022 19:13:59",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": "3"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "3"
+   },
+   {
+    "ensayo": {
+     "code": "31",
+     "ensayoId": "31",
+     "nombre": "PARTÍCULAS ML 25 MICRAS"
+    },
+    "fecha": "08-07-2022",
+    "hora": "19:13:55",
+    "muestraId": "33779798",
+    "resultadoId": "16573012413286840",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 17:27:21",
+      "stamp": "falta_iniciar",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "17"
+     },
+     {
+      "fecha": "08-07-2022 19:13:55",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": "17"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "17"
+   },
+   {
+    "ensayo": {
+     "code": "33",
+     "ensayoId": "33",
+     "nombre": "PARTÍCULAS ML 100 MICRAS"
+    },
+    "fecha": "08-07-2022",
+    "hora": "19:14:05",
+    "muestraId": "33779798",
+    "resultadoId": "16573012416075660",
+    "stamp": "cargado",
+    "tipo": "automatico",
+    "traces": [
+     {
+      "fecha": "08-07-2022 17:27:21",
+      "stamp": "falta_iniciar",
+      "tipo": "automatico",
+      "usuario": null,
+      "value": "0"
+     },
+     {
+      "fecha": "08-07-2022 19:14:05",
+      "stamp": "cargado",
+      "tipo": "automatico",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": "0"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "0"
+   },
+   {
+    "ensayo": {
+     "code": "8",
+     "ensayoId": "8",
+     "nombre": "CONTENIDO DE AGUA"
+    },
+    "fecha": "08-07-2022",
+    "hora": "19:11:30",
+    "muestraId": "33779798",
+    "resultadoId": "16573074909002050",
+    "stamp": "no_realizable",
+    "tipo": "manual",
+    "traces": [
+     {
+      "fecha": "08-07-2022 19:11:30",
+      "stamp": "no_realizable",
+      "tipo": "manual",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": ""
+   },
+   {
+    "ensayo": {
+     "code": "18",
+     "ensayoId": "18",
+     "nombre": "PARTICULADO VISIBLE"
+    },
+    "fecha": "08-07-2022",
+    "hora": "19:11:39",
+    "muestraId": "33779798",
+    "resultadoId": "16573074994414480",
+    "stamp": "no_realizable",
+    "tipo": "manual",
+    "traces": [
+     {
+      "fecha": "08-07-2022 19:11:39",
+      "stamp": "no_realizable",
+      "tipo": "manual",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": ""
+   },
+   {
+    "ensayo": {
+     "code": "56",
+     "ensayoId": "56",
+     "nombre": "BARIO (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "19:14:55",
+    "muestraId": "33779798",
+    "resultadoId": "16573076956017040",
+    "stamp": "no_realizable",
+    "tipo": "manual",
+    "traces": [
+     {
+      "fecha": "08-07-2022 19:14:55",
+      "stamp": "no_realizable",
+      "tipo": "manual",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": ""
+   },
+   {
+    "ensayo": {
+     "code": "54",
+     "ensayoId": "54",
+     "nombre": "MAGNESIO (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "19:27:26",
+    "muestraId": "33779798",
+    "resultadoId": "16573084469854900",
+    "stamp": "no_realizable",
+    "tipo": "manual",
+    "traces": [
+     {
+      "fecha": "08-07-2022 19:27:26",
+      "stamp": "no_realizable",
+      "tipo": "manual",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": ""
+   },
+   {
+    "ensayo": {
+     "code": "50",
+     "ensayoId": "50",
+     "nombre": "ZINC (ICP)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "19:27:41",
+    "muestraId": "33779798",
+    "resultadoId": "16573084612828290",
+    "stamp": "no_realizable",
+    "tipo": "manual",
+    "traces": [
+     {
+      "fecha": "08-07-2022 19:27:41",
+      "stamp": "no_realizable",
+      "tipo": "manual",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": ""
+   },
+   {
+    "ensayo": {
+     "code": "53",
+     "ensayoId": "53",
+     "nombre": "CALCIO (ICP) "
+    },
+    "fecha": "08-07-2022",
+    "hora": "19:27:54",
+    "muestraId": "33779798",
+    "resultadoId": "16573084740162420",
+    "stamp": "no_realizable",
+    "tipo": "manual",
+    "traces": [
+     {
+      "fecha": "08-07-2022 19:27:54",
+      "stamp": "no_realizable",
+      "tipo": "manual",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": ""
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": ""
+   },
+   {
+    "ensayo": {
+     "code": "405",
+     "ensayoId": "405",
+     "nombre": "PQ INDEX (INDEX NUMBER)"
+    },
+    "fecha": "08-07-2022",
+    "hora": "19:29:23",
+    "muestraId": "33779798",
+    "resultadoId": "16573085632415800",
+    "stamp": "cargado",
+    "tipo": "manual",
+    "traces": [
+     {
+      "fecha": "08-07-2022 19:29:23",
+      "stamp": "cargado",
+      "tipo": "manual",
+      "usuario": {
+       "nombre": "Eric  Olivares",
+       "userId": "eolivares@copec.cl"
+      },
+      "value": "13"
+     }
+    ],
+    "usuario": {
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    },
+    "value": "13"
+   }
+  ],
+  "traces": [
+   {
+    "estado": "registered",
+    "fecha": "04-07-2022"
+   },
+   {
+    "estado": "received",
+    "fecha": "08-07-2022 16:18:56"
+   },
+   {
+    "estado": "assigned_batch",
+    "fecha": "08-07-2022 16:18:58",
+    "loteId": "2",
+    "userId": "angel.santander.ex@copec.cl"
+   },
+   {
+    "estado": "in_analysis",
+    "fecha": "08-07-2022 16:20:38"
+   },
+   {
+    "estado": "in_analysis",
+    "fecha": "08-07-2022 16:20:38",
+    "loteId": "2",
+    "userId": "angel.santander.ex@copec.cl"
+   },
+   {
+    "estado": "pending_approval",
+    "fecha": "08-07-2022 19:29:25"
+   },
+   {
+    "estado": "reported",
+    "fecha": "08-07-2022",
+    "hora": "19:38:10",
+    "usuario": {
+     "email": "eolivares@copec.cl",
+     "nombre": "Eric  Olivares",
+     "userId": "eolivares@copec.cl"
+    }
+   }
+  ],
+  "unidadUsoCambioLubricante": "horas",
+  "unidadUsoTotalComponente": "horas",
+  "usoCambioLubricante": "301",
+  "usoTotalComponente": "3536",
+  "usuario": {
+   "apellido": "Reyes",
+   "email": "marcelo.reyes@epiroc.com",
+   "nombre": "Marcelo",
+   "phone": "962491925",
+   "rut": "14363035-8",
+   "userId": "54645a24-e5ef-4624-9a18-948bb82aab0b"
+  }
+ },
+ "entidad": "Muestra",
+ "ESTADO": "MUESTRA#reported",
+ "FECHA_MUESTREO": "2022-07-01",
+ "LABORATORIO": "2",
+ "LOTE": "2",
+ "lubricante": "357",
+ "NOTIFIED": "True",
+ "plan_analisis": "600011",
+ "SOLICITUD_ANALISIS": "4"
+}

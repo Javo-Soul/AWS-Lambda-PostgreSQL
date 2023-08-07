@@ -1,0 +1,187 @@
+--Elimina la vista
+DROP VIEW IF EXISTS public.vista_muestra_ensayos;
+
+--Elimina las tablas
+DROP TABLE IF EXISTS public.muestras;
+DROP TABLE IF EXISTS public.ensayos;
+DROP TABLE IF EXISTS public.ft_deudores;
+
+CREATE TABLE IF NOT EXISTS public.muestras
+(
+    correlativo character varying(11) COLLATE pg_catalog."default" NOT NULL,
+    id_muestra_frasco character varying(9) COLLATE pg_catalog."default" NOT NULL,
+    id_deudor integer,
+    deudor character varying(20) COLLATE pg_catalog."default",
+    id_solicitante integer,
+    solicitante character varying(12) COLLATE pg_catalog."default",
+    id_centro_beneficio character varying(9) COLLATE pg_catalog."default",
+    centro_beneficio character varying(20) COLLATE pg_catalog."default",
+    id_centro_distribucion character varying(5) COLLATE pg_catalog."default",
+    id_jefe_zona character varying(4) COLLATE pg_catalog."default",
+    jefe_zona character varying(20) COLLATE pg_catalog."default",
+    direccion_cliente character varying(32) COLLATE pg_catalog."default",
+    id_lubricante integer,
+    lubricante_nombre character varying(19) COLLATE pg_catalog."default",
+    id_componente character varying(11) COLLATE pg_catalog."default",
+    componente_descriptor character varying(4) COLLATE pg_catalog."default",
+    marca_componente character varying(7) COLLATE pg_catalog."default",
+    modelo_componente character varying(16) COLLATE pg_catalog."default",
+    tipo_componente character varying(21) COLLATE pg_catalog."default",
+    id_tipo_componente character varying(3) COLLATE pg_catalog."default",
+    id_equipo character varying(7) COLLATE pg_catalog."default",
+    equipo character varying(16) COLLATE pg_catalog."default",
+    marca_equipo character varying(7) COLLATE pg_catalog."default",
+    modelo_equipo character varying(14) COLLATE pg_catalog."default",
+    id_tipo_equipo integer,
+    tipo_equipo character varying(12) COLLATE pg_catalog."default",
+    laboratorio character varying(2) COLLATE pg_catalog."default",
+    lote character varying(2) COLLATE pg_catalog."default",
+    id_plan_analisis character varying(7) COLLATE pg_catalog."default",
+    nombre_plan_analisis character varying(22) COLLATE pg_catalog."default",
+    id_solicitud_analisis character varying(2) COLLATE pg_catalog."default",
+    resolucion character varying(7) COLLATE pg_catalog."default",
+    comentario character varying(250) COLLATE pg_catalog."default",
+    fecha_informe timestamp without time zone,
+    fecha_ingreso timestamp without time zone,
+    fecha_muestreo timestamp without time zone,
+    fecha_solicitud timestamp without time zone,
+    cantidad_rellenos character varying(2) COLLATE pg_catalog."default",
+    uso_cambio_lubricante character varying(4) COLLATE pg_catalog."default",
+    uso_total_componente character varying(5) COLLATE pg_catalog."default",
+    fecha_carga timestamp without time zone,
+    CONSTRAINT muestras_pkey PRIMARY KEY (correlativo, id_muestra_frasco)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.muestras
+    OWNER to postgresmaster;
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS public.ensayos
+(
+    correlativo character varying(11) COLLATE pg_catalog."default" NOT NULL,
+    componente character varying(11) COLLATE pg_catalog."default",
+    codigo_ensayo character varying(4) COLLATE pg_catalog."default",
+    muestraid character varying(9) COLLATE pg_catalog."default" NOT NULL,
+    id_ensayo integer NOT NULL,
+    ensayo character varying(26) COLLATE pg_catalog."default",
+    tipo_ensayo character varying(11) COLLATE pg_catalog."default",
+    fecha_muestreo timestamp without time zone,
+    fecha_ensayo timestamp without time zone,
+    hora_ensayo character varying(18) COLLATE pg_catalog."default",
+    id_resultado character varying(18) COLLATE pg_catalog."default",
+    stamp character varying(14) COLLATE pg_catalog."default" NOT NULL,
+    valor character varying(16) COLLATE pg_catalog."default",
+    id_usuario character varying(19) COLLATE pg_catalog."default",
+    usuario character varying(15) COLLATE pg_catalog."default",
+    estado_color character varying(16) COLLATE pg_catalog."default",
+    estatus character varying(16) COLLATE pg_catalog."default",
+    estado_limite_min double precision,
+    estado_limite_max double precision,
+    estado_limite_allow_min double precision,
+    estado_limite_allow_max double precision,
+    fecha_carga timestamp without time zone,
+    CONSTRAINT ensayos_pkey PRIMARY KEY (correlativo, muestraid, id_ensayo, stamp)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.ensayos
+    OWNER to postgresmaster;
+
+------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
+
+
+CREATE OR REPLACE VIEW public.vista_muestra_ensayos
+AS
+SELECT 
+a.correlativo
+,a.componente
+,a.codigo_ensayo
+,a.muestraID
+,a.id_ensayo
+,a.ensayo
+,a.tipo_ensayo
+,a.fecha_ensayo
+,a.hora_ensayo
+,a.id_resultado
+,a.stamp
+,a.valor
+,a.id_usuario
+,a.usuario
+,a.estado_color
+,a.estatus
+,a.estado_limite_min
+,a.estado_limite_max
+,a.estado_limite_allow_min
+,a.estado_limite_allow_max
+
+,b.id_muestra_frasco
+,b.id_deudor
+,b.deudor
+,b.id_solicitante
+,b.solicitante
+,b.id_centro_beneficio
+,b.centro_beneficio
+,b.id_centro_distribucion
+,b.id_jefe_zona
+,b.jefe_zona
+,b.direccion_cliente
+,b.id_lubricante
+,b.lubricante_nombre
+,b.id_componente
+,b.componente_descriptor
+,b.marca_componente
+,b.modelo_componente
+,b.tipo_componente
+,b.id_tipo_componente
+,b.id_equipo
+,b.equipo
+,b.marca_equipo
+,b.modelo_equipo
+,b.id_tipo_equipo
+,b.tipo_equipo
+,b.laboratorio
+,b.lote
+,b.id_plan_analisis
+,b.nombre_plan_analisis
+,b.id_solicitud_analisis
+,b.resolucion
+,b.comentario
+,b.fecha_informe
+,b.fecha_ingreso
+,b.fecha_muestreo
+,b.fecha_solicitud
+,b.cantidad_rellenos
+,b.uso_cambio_lubricante
+,b.uso_total_componente
+,b.fecha_carga
+
+FROM muestras as b
+---------------------------------
+inner join ensayos as a
+on a.correlativo = b.correlativo;
+------------------------------
+ALTER TABLE public.vista_muestra_ensayos
+OWNER TO postgresmaster;
+
+
+CREATE TABLE IF NOT EXISTS public.ft_deudores
+(
+    id_deudor integer,
+    deudor character varying(20) COLLATE pg_catalog."default",
+    api_key text COLLATE pg_catalog."default"
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.ft_deudores
+    OWNER to postgres;
+
+INSERT INTO public.ft_deudores(id_deudor, deudor, api_key)
+	VALUES (700503,'EPIROC CHILE S.A.C.','1245565648');
+
+
